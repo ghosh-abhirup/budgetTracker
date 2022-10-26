@@ -19,7 +19,7 @@ export const Provider = (props) => {
 
   return (
     <BudgetTrackerContext.Provider
-      value={{ deleteTransaction, addTransaction }}
+      value={{ deleteTransaction, addTransaction, transactions }}
     >
       {props.children}
     </BudgetTrackerContext.Provider>
